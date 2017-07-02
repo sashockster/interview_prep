@@ -13,6 +13,11 @@ function factorial(n) {
   return  n * factorial(n-1)
   
   */
+  var sum = 1;
+  for(var i =0; i<n;i++){
+    sum *= (n-i);
+  }
+  return sum;
 }
 
 // These are tests to check that your code is working. After writing
